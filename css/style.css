@@ -73,17 +73,17 @@ header {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     margin:auto;
+    height: 50px;
 }
 
 .header__left {
     width: 275px;
 }
 .logo-text {
-
     font-weight: 200;
     font-size: 27px;
-    /*font-family: "Raleway";*/
     color: #383838;
 }
 
@@ -97,12 +97,13 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     max-width:925px;
+    line-height: 50px;
 }
 
 .menu-el {
-    padding: 10px;
     text-decoration: none;
-    margin: 6px 0 0 9px;
+    margin: 0px 7px;
+    padding: 0px 6px;
 }
 
 .menu-el:hover {
